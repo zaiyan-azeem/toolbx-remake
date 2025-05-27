@@ -8,13 +8,17 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="navbar">
+  <header class="navbar transparent">
     <div class="container nav-container">
-      <img src="assets/images/logo.svg" alt="TOOLBX Logo" class="logo">
+      <!-- two logos for light / dark modes -->
+      <img src="assets/images/logo-white.svg" alt="TOOLBX Logo" class="logo logo-light">
+      <img src="assets/images/logo-dark.svg"  alt="TOOLBX Logo" class="logo logo-dark">
+
       <button class="mobile-nav-toggle" aria-label="Toggle navigation">
         <span class="hamburger"></span>
       </button>
-      <nav class="nav">
+
+      <nav>
         <ul class="nav-list">
           <li><a href="#">Customer Portal</a></li>
           <li><a href="#">AR Management</a></li>
@@ -22,6 +26,7 @@
           <li><a href="#">Resources</a></li>
         </ul>
       </nav>
+
       <a href="#" class="btn btn-outline">Sign In</a>
     </div>
   </header>
@@ -47,6 +52,34 @@
         <li>Enhance online storefront</li>
         <li>Improve customer communication</li>
       </ul>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <h2>How TOOLBX Helps You</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <img src="assets/images/icon-warehouse.svg" alt="Warehouse icon">
+          <h3>Streamline Operations</h3>
+          <p>Manage inventory, quotes, and orders all in one place.</p>
+        </div>
+        <div class="feature-card">
+          <img src="assets/images/icon-payments.svg" alt="Payments icon">
+          <h3>Accelerate Payments</h3>
+          <p>Secure online payments to improve cash flow.</p>
+        </div>
+        <div class="feature-card">
+          <img src="assets/images/icon-storefront.svg" alt="Storefront icon">
+          <h3>Modern Storefront</h3>
+          <p>Industry-tuned e-commerce for construction pros.</p>
+        </div>
+        <div class="feature-card">
+          <img src="assets/images/icon-messaging.svg" alt="Messaging icon">
+          <h3>Customer Messaging</h3>
+          <p>Built-in chat to keep your clients informed.</p>
+        </div>
+      </div>
     </div>
   </section>
 
