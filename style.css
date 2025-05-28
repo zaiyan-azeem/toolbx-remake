@@ -214,6 +214,10 @@ body {
   color: #1c1c1e;
 }
 
+.dropdown-menu li a:hover {
+  color: #FFD400;
+}
+
 .dropdown-menu li a strong {
   display: block;
   font-weight: 600;
