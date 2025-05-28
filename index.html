@@ -13,42 +13,76 @@
 
   <!-- NAVBAR -->
   <header class="navbar">
-    <div class="nav-container">
-      <div class="nav-content">
-        <a href="#" class="logo-link">
-          <img src="assets/images/logo-light.svg" alt="TOOLBX Logo" class="logo logo-light"/>
-          <img src="assets/images/logo-dark.svg"  alt="TOOLBX Logo" class="logo logo-dark"/>
-        </a>
+    <div class="nav-content">
+      <a href="#" class="logo-link">
+        <img src="assets/images/logo-light.svg" alt="TOOLBX Logo" class="logo logo-light"/>
+        <img src="assets/images/logo-dark.svg"  alt="TOOLBX Logo" class="logo logo-dark"/>
+      </a>
 
-        <nav>
-          <ul class="nav-list">
-            <li><a href="#">Customer Portal</a></li>
-            <li><a href="#">AR Management</a></li>
-            <li><a href="#">E-Commerce</a></li>
-            <li><a href="#">Resources</a></li>
-          </ul>
-        </nav>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#">Customer Portal</a></li>
+          <li><a href="#">AR Management</a></li>
 
-        <a href="#" class="sign-in-link">Sign-In</a>
-      </div>
+          <!-- E-COMMERCE DROPDOWN -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">E-Commerce <span class="caret">▾</span></a>
+            <div class="dropdown-menu">
+              <h4>FEATURES</h4>
+              <ul class="grid-3">
+                <li><a href="#"><strong>Overview</strong><span class="desc">E-commerce for building supply businesses.</span></a></li>
+                <li><a href="#"><strong>Storefront</strong><span class="desc">Sell online with a digital storefront.</span></a></li>
+                <li><a href="#"><strong>Quotes</strong><span class="desc">Receive and manage customer quotes online.</span></a></li>
+                <li><a href="#"><strong>Messages</strong><span class="desc">Communicate via web-based messaging.</span></a></li>
+                <li><a href="#"><strong>Integrations</strong><span class="desc">Sync your ERP with your online store.</span></a></li>
+                <li><a href="#"><strong>Orders</strong><span class="desc">View, manage, and track orders.</span></a></li>
+                <li><a href="#"><strong>Products</strong><span class="desc">Add, edit, and manage products.</span></a></li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- RESOURCES DROPDOWN -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">Resources <span class="caret">▾</span></a>
+            <div class="dropdown-menu">
+              <h4>GETTING STARTED</h4>
+              <ul class="grid-2">
+                <li><a href="#"><strong>Resources Hub</strong><span class="desc">Everything you need to get started.</span></a></li>
+                <li><a href="#"><strong>Guides</strong><span class="desc">In-depth guides on winning at e-commerce.</span></a></li>
+              </ul>
+              <h4>LEARNING</h4>
+              <ul class="grid-3">
+                <li><a href="#"><strong>Videos</strong><span class="desc">Informative videos on digital tech.</span></a></li>
+                <li><a href="#"><strong>Newsletter</strong><span class="desc">Product updates, industry trends & more.</span></a></li>
+                <li><a href="#"><strong>Customer Stories</strong><span class="desc">How suppliers succeed with e-commerce.</span></a></li>
+              </ul>
+              <h4>SUPPORT</h4>
+              <ul class="grid-1">
+                <li><a href="#"><strong>Help Docs</strong><span class="desc">Help articles on using our platform.</span></a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="#" class="sign-in-link">Sign In</a>
     </div>
   </header>
 
   <!-- HERO -->
   <section class="hero">
-    <div class="container hero-content">
+    <div class="hero-content">
       <div class="hero-text">
         <h1>Digital experience platform for modern building suppliers</h1>
         <p class="hero-sub">
-          TOOLBX enables independent building suppliers to streamline payments, simplify AR,
-          grow online sales, and improve the customer experience—all integrated with their ERP.
+          TOOLBX enables independent building suppliers to streamline payments, simplify AR, grow online sales,
+          and improve the customer experience—all integrated with their ERP.
         </p>
-        <!-- Styled outline button -->
-        <a href="#" class="btn btn-hero">Book a Demo</a>
+        <a href="#" class="btn-hero">Book a Demo</a>
       </div>
       <div class="hero-media">
         <iframe
-          src="https://www.youtube.com/embed/50pJ5uJduHg"
+          src="https://www.youtube.com/embed/50pJ5uJduHg?rel=0"
           title="TOOLBX Platform Demo"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -58,14 +92,12 @@
     </div>
   </section>
 
-  <!-- BLURB SECTION -->
+  <!-- BLURB -->
   <section class="blurb">
     <div class="container blurb-container">
       <h2>Empower your building supply store with the ultimate digital experience</h2>
-      <p>
-        We're the preferred digital experience for the lumber & building supply industry,
-        uniting customer portals, AR, online payments, and e-commerce in one powerful platform.
-      </p>
+      <p>We’re the preferred digital experience for the lumber & building supply industry, uniting customer portals,
+      AR, online payments, and e-commerce in one powerful platform.</p>
       <ul class="blurb-list">
         <li>Streamline warehouse operations</li>
         <li>Accelerate cash flow</li>
@@ -75,28 +107,28 @@
     </div>
   </section>
 
-  <!-- FEATURES GRID -->
+  <!-- FEATURES -->
   <section class="features">
     <div class="container">
       <h2>How TOOLBX Helps You</h2>
       <div class="features-grid">
         <div class="feature-card">
-          <img src="assets/images/icon-warehouse.svg" alt="Warehouse icon"/>
+          <img src="assets/images/icon-warehouse.svg" alt="Warehouse"/>
           <h3>Streamline Operations</h3>
           <p>Manage inventory, quotes, and orders all in one place.</p>
         </div>
         <div class="feature-card">
-          <img src="assets/images/icon-payments.svg" alt="Payments icon"/>
+          <img src="assets/images/icon-payments.svg" alt="Payments"/>
           <h3>Accelerate Payments</h3>
           <p>Secure online payments to improve cash flow.</p>
         </div>
         <div class="feature-card">
-          <img src="assets/images/icon-storefront.svg" alt="Storefront icon"/>
+          <img src="assets/images/icon-storefront.svg" alt="Storefront"/>
           <h3>Modern Storefront</h3>
           <p>Industry-tuned e-commerce for construction pros.</p>
         </div>
         <div class="feature-card">
-          <img src="assets/images/icon-messaging.svg" alt="Messaging icon"/>
+          <img src="assets/images/icon-messaging.svg" alt="Messaging"/>
           <h3>Customer Messaging</h3>
           <p>Built-in chat to keep your clients informed.</p>
         </div>
